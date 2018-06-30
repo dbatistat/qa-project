@@ -1,0 +1,25 @@
+{
+  "name": "carpinteart-bdd",
+  "version": "1.0.0",
+  "description": "Carpinteart BDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbatistat/qa-project.git"
+  },
+  "author": "David Batista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dbatistat/qa-project/issues"
+  },
+  "homepage": "https://github.com/dbatistat/qa-project#readme",
+  "dependencies": {
+    "cucumber": "^4.2.1",
+    "chai": "^4.1.2",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
