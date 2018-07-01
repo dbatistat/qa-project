@@ -1,9 +1,9 @@
 Feature: Iniciar sesion en sucursal
-    Como Cliente sdfsdfsdf
+    Como Cliente
     Requiero servicios de autenticación con JWT 
     Para iniciar sesión sesión desde el UI
 
-    Scenario: al iniciar con la tarea de sesion
+    Scenario: Iniciar sesion con usuario de PuntoCom
     Given datos del usuario "vargas" con contraseña "vargas" 
     When Envio estos datos con POST al servicio de autenticacion de carpinteart
     Then El servidor responde con el estado 200 
@@ -11,7 +11,7 @@ Feature: Iniciar sesion en sucursal
         And La respuesta contiene el username "vargas"
         And debe tener 1 permisos
 
-    Scenario Outline: al iniciar con la tarea de sesion
+    Scenario Outline: Iniciar sesion con usuario de PuntoCom o de Sistema
     Given datos del usuario <username> con contraseña <password> 
     When Envio estos datos con POST al servicio de autenticacion de carpinteart
     Then El servidor responde con el estado <spected_status_code> 
