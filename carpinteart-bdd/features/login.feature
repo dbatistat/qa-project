@@ -22,6 +22,6 @@ Feature: Iniciar sesion en sucursal
     Examples: 
     |  username  |   password    | branch_office_id | spected_status_code |   permissions   | 
     |  "vargas"  |  "vargas"     |       1          |       200           |        1        |
-    |  "vargas"  |  "123"        |       1          |       401           |        1        |
+    |  "vargas"  |  "123"        |       1          |       401           |        0        |
     |  "admin"   |  "toro"       |       1          |       200           |        208      | 
     |  "vargas"  |  "vargas"     |       10000      |       200           |        0        | 
